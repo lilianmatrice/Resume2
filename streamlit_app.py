@@ -50,15 +50,6 @@ head('''
 #### Resume 
 ''', image)
 
-#st.markdown('[this is a text link](upload:image)')
-
-st.markdown('## Summary', unsafe_allow_html=True)
-st.info('''
-- Junior Data analyst 
-- Data training Manager at Matrice
-- Worked at Secours Catholique on the statistical report "Etat de la pauvreté en France"
-''')
-
 #####################
 # Navigation
 ## Barre de navigation bootstrap dans laquelle on met des hyperliens avec html
@@ -93,6 +84,15 @@ st.markdown("""
   </div>
 </nav>
 """, unsafe_allow_html=True)
+
+#st.markdown('[this is a text link](upload:image)')
+######################
+st.markdown('## Summary', unsafe_allow_html=True)
+st.info('''
+- Junior Data analyst 
+- Data training Manager at Matrice
+- Worked at Secours Catholique on the statistical report "Etat de la pauvreté en France"
+''')
 
 #####################
 st.markdown('''
